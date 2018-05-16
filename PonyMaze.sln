@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonyMaze", "PonyMaze\PonyMaze.csproj", "{62941857-928A-4D3D-8EAB-298D4DECAB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiClient", "RestApiClient\RestApiClient.csproj", "{C8376192-9D62-4BB7-B805-76E53A2A6068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PonyMaze.Common", "PonyMaze.Common\PonyMaze.Common.csproj", "{19FAEAFC-5E42-4C47-BD05-E3519C90D81A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{91589F29-CAAC-4493-9CC2-857660F248F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiClient.Tests", "ApiClient.Tests\ApiClient.Tests.csproj", "{1F3BC490-7CB5-4250-B268-A0226B5E5412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoneMaze.MazeSolver", "PoneMaze.MazeSolver\PoneMaze.MazeSolver.csproj", "{687A5ADE-DE47-4EBE-93EB-0487DE6774EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazePainter", "MazePainter\MazePainter.csproj", "{CC1BE175-4C58-4244-B7B5-64969E355CB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62941857-928A-4D3D-8EAB-298D4DECAB50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62941857-928A-4D3D-8EAB-298D4DECAB50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62941857-928A-4D3D-8EAB-298D4DECAB50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62941857-928A-4D3D-8EAB-298D4DECAB50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8376192-9D62-4BB7-B805-76E53A2A6068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8376192-9D62-4BB7-B805-76E53A2A6068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8376192-9D62-4BB7-B805-76E53A2A6068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8376192-9D62-4BB7-B805-76E53A2A6068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19FAEAFC-5E42-4C47-BD05-E3519C90D81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19FAEAFC-5E42-4C47-BD05-E3519C90D81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19FAEAFC-5E42-4C47-BD05-E3519C90D81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19FAEAFC-5E42-4C47-BD05-E3519C90D81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F3BC490-7CB5-4250-B268-A0226B5E5412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3BC490-7CB5-4250-B268-A0226B5E5412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3BC490-7CB5-4250-B268-A0226B5E5412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3BC490-7CB5-4250-B268-A0226B5E5412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687A5ADE-DE47-4EBE-93EB-0487DE6774EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687A5ADE-DE47-4EBE-93EB-0487DE6774EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687A5ADE-DE47-4EBE-93EB-0487DE6774EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687A5ADE-DE47-4EBE-93EB-0487DE6774EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1BE175-4C58-4244-B7B5-64969E355CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1BE175-4C58-4244-B7B5-64969E355CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1BE175-4C58-4244-B7B5-64969E355CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1BE175-4C58-4244-B7B5-64969E355CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F3BC490-7CB5-4250-B268-A0226B5E5412} = {91589F29-CAAC-4493-9CC2-857660F248F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F4D2EB8-576C-4393-A869-5D3BFE7630E1}
+	EndGlobalSection
+EndGlobal
